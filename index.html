@@ -28,11 +28,11 @@
 	
     <div class="row" style="margin-top: 25px; justify-content: center;">
            
-        <i class="fab fa-linkedin-in icon" onclick="window.open('https://www.linkedin.com/in/mccullochme/', '_blank'); return true;" style="margin-right:50px;"></i>
+        <i class="fab fa-linkedin-in icon" onclick="window.open('https://www.linkedin.com/in/mccullochme/', '_blank');" style="margin-right:50px;"></i>
         
         <i class="fab fa-github icon" onclick="window.location.href='https://github.com/mccullochme/'"></i>
        
-        <i class="far fa-file-alt icon" onclick="window.open('../MaxMcCulloch_Portfolio/content/Resume.pdf'); return true;" style="margin-left: 50px;"></i>
+        <i class="far fa-file-alt icon" onclick="window.open('../MaxMcCulloch_Portfolio/content/Resume.pdf');" style="margin-left: 50px;"></i>
            
     </div>
     
@@ -40,7 +40,7 @@
 
 
 
-<section>
+<div class="info-section" style="background-color: white;">
 
     <div class = "row">
 
@@ -62,90 +62,80 @@
    </div>
 
    <div class = "row" style="margin:16px; justify-content: center;">  
-
         <div class="info" style="max-width:50vw;">
             I am also an Online Private Instructor for 
+
             <a href="https://www.iDTech.com" class="h_ref"> iDTech</a>
+
             My job is to teach kids ages 7-17
             all things technology. With my students, I have created an android 
             app, javascript games, java and python applications, and even 
             minecraft worlds. This year at iDTech I will use my passion for
             Game Design to manifest amazing games with these students via UNITY and Maya.
         </div>
-
-        
-
     </div>
+</div>
 
-    <div class="row" style="min-height:16px;"></div>
-    
-</section>
-<div style="background-color: lightgray;">
+<div class="info-section" style="background-color: lightgray;">
     <div class="row" style="justify-content: center;">
 
         <h1>Alerta</h1>
         
     </div>
 
-    <div class="row" style="justify-content: center;">
+    <div class="block">
+        <div class="col">
+                <div class="info">
+                ALERTA is a VR experience to help students with ADHD study.
+                I Modeled and Animated these flowers in Maya. The flowers bloom
+                to represent the user's progress as they're studying. 
+                These flowers are then placed in a Virtual Environment 
+                using Unity 3D 
+                </div>
+
+                <br>
+
+                <div class="info">
+                The petals are
+                a non-linear bend animation. I used the Alembic 
+                Import tool to get the animation rigged in Unity.
+                </div>
+        </div>
+            
+        <div class="col">
+            <video src="./content/ALERTA_flower.mp4" class="video" autostart="false"></video>
+        </div>
+           
         <div class="col">
             <div class="info">
-            ALERTA is a VR experience to help students with ADHD study.
-            I Modeled and Animated these flowers in Maya. The flowers bloom
-            to represent the user's progress as they're studying. 
-            These flowers are then placed in a Virtual Environment 
-            using Unity 3D 
+                ALERTA is a research project with 10+ VCU students 
+                and 2+ Professors. I am apart of the 3D modeling team, 
+                and the feedback team which entails animating and scripting.
             </div>
 
             <br>
 
             <div class="info">
-            The petals are
-            a non-linear bend animation. I used the Alembic 
-            Import tool to get the animation rigged in Unity.
+                Fun Fact : The start and end key-frames of all petals are 
+                offset to the others an odd amount
+                to give it natural bloom animation.
             </div>
         </div>
-        
-       
-
-        <embed src="./content/ALERTA_flower.mp4" autostart="false" id="one"/></embed>
-        
-        
-        <div class="col">
-           <div class="info">
-            ALERTA is a research project with 10+ VCU students 
-            and 2+ Professors. I am apart of the 3D modeling team, 
-            and the feedback team which entails animating and scripting.
-            </div>
-
-            <br>
-
-            <div class="info">
-            Fun Fact : The start and end key-frames of all petals are 
-            offset to the others an odd amount
-            to give it natural bloom animation.
-            </div>
-        </div>
-
-    </div>
+    </div>    
 
 </div>
-<div style="background-color: darkgray;">
+<div class="info-section" style="background-color: darkgray;">
     <div class="row" style="justify-content: center;">
-
         <h1>FLICKR</h1>
-        
     </div>
 
-    <div class="row" style="justify-content: center;">
+    <div class="block" style="justify-content: center;">
 
-        
-
-        <div class="col">
-            <embed src="./content/FLICKR_walkthrough.mp4" autostart="false" id="two"/></embed>
+        <div class="col" style= "margin:0;">
+            <video src="./content/FLICKR_walkthrough.mp4" class="video" autostart="false"></video>
         </div>
-        <div class="col">
 
+        <div class="col">
             <div class="info">
                 FLICKR is a 3D thriller/puzzle video-game where 
                 the player solves puzzles that change with different 
@@ -168,76 +158,79 @@
              and/or have something else up their sleve.
             </div>
 
-             <br>
+            <br>
  
-             <div class="info">
-             ***still in development***
-             </div>
+            <div class="info">
+                ***still in development***
+            </div>
          </div>
-        <div class="col">
-            <embed src="./content/FLICKR_lights.mp4" autostart="false" id="two"/></embed>
+
+        <div class="col" style="margin:0;">
+            <video src="./content/FLICKR_lights.mp4" class="video" autostart="false" ></video>
         </div>
 
     </div>
 
 </div>
-<div style="background-color: gray;">
-    <div class="row" style="justify-content: center;">
 
+<div class="info-section" style="background-color: gray;">
+    <div class="row" style="justify-content: center;">
         <h1>U-Paint</h1>
-        
     </div>
 
-    <div class="row" style="justify-content: center;">
+    <div class="block" style="justify-content: center;">
 
         <div class="info">
-            A For Fun Project I decided to do in my room about 4 months ago.
-            
+            Simple Pixel Art Fun written in HTML, JS, and CSS. The 'pen' is controlled via
+            W, A, S, D. One fun feature I added using Javascript was to click and 
+            drag on the canvas to paint. Another feature in the works is for the user 
+            to export thier fabulous work with a click of a button. 
+            <br>
+            There are currently 9 colors and can be selected at the bottom of the page, 
+            and via hotkeys 1-9
         </div>
 
-        <embed src="./content/uPaint_example.mp4" autostart="false" id="one"/></embed>
+        <div class="col" style="justify-content: center; margin:0;">
+            <video src="./content/uPaint_example.mp4" class="video" autostart="false"></video>
+        </div>
         
         <div class="info">
-            hgefjkvgsdfjhkfvghjdkfvgesjvghjef grvr vrv v rfvh egrfuyv iruhgv 
-            r vru fvurf bvreu b gerhb erguhb grhb grbu gruhb rguihb vryuoe bvryub
-            hgefjkvgsdfjhkfvghjdkfvgesjvghjef grvr vrv v rfvh egrfuyv iruhgv 
-            r vru fvurf bvreu b gerhb erguhb grhb grbu gruhb rguihb vryuoe bvryub
+            A challenge I faced in developing this project was how to structure the canvas, 
+            and keeping track of what pixel the "pen" is currently on. I conquered this by 
+            using a coordinate system and each pixel belonging to its own (X,Y) pair.
         </div>
 
     </div>
 
 </div>
-<div style="background-color: black;">
-    <div class="row" style="justify-content: center;">
 
+<div class="info-section" style="background-color: black">
+    <div class="row" style="justify-content: center;">
         <h1 style="color:white;">Bomb Squad</h1>
-        
     </div>
 
-    <div class="row" style="justify-content: center;">
+    <div class="block" style="justify-content: center;">
 
         <div class="info" style="color:white;">
-            hgefjkvgsdfjhkfvghjdkfvgesjvghjef grvr vrv v rfvh egrfuyv iruhgv 
-            r vru fvurf bvreu b gerhb erguhb grhb grbu gruhb rguihb vryuoe bvryub
-            hgefjkvgsdfjhkfvghjdkfvgesjvghjef grvr vrv v rfvh egrfuyv iruhgv 
-            r vru fvurf bvreu b gerhb erguhb grhb grbu gruhb rguihb vryuoe bvryub
+            Developed in UNITY, Bomb Squad is a doge falling objects game.
+            The Bombs are randomly generated to create infinite replay value.
+            The score goes up as you stay alive, and high score is displayed.
         </div>
 
-        <embed src="./content/bombSquad.mp4" autostart="false" id="one"/></embed>
+
+        <div class="col" style="justify-content: center; margin: 0">
+            <video src="./content/bombSquad.mp4" class="video" autostart="false" ></video>
+        </div>
         
         <div class="info" style="color:white;">
-            hgefjkvgsdfjhkfvghjdkfvgesjvghjef grvr vrv v rfvh egrfuyv iruhgv 
-            r vru fvurf bvreu b gerhb erguhb grhb grbu gruhb rguihb vryuoe bvryub
-            hgefjkvgsdfjhkfvghjdkfvgesjvghjef grvr vrv v rfvh egrfuyv iruhgv 
-            r vru fvurf bvreu b gerhb erguhb grhb grbu gruhb rguihb vryuoe bvryub
+            A challenge I faced in this development was to figure out how to save 
+            highscore for the next playthrough. I used a script to keep track of 
+            the player's state and to save current score when player "dies".
         </div>
 
     </div>
 
 </div>
-
-
-
 
 </body>
 </html>

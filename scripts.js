@@ -1,6 +1,7 @@
 $(function () {
 
     createSticky($("#header"));
+    
 });
   
 function createSticky(sticky) {
