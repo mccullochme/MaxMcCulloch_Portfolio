@@ -7,10 +7,11 @@ body {
 h1{
 
 	font: italic normal 500 75px "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	color: #000;
+	color: black;
 	margin: 0px;
 	text-align: center;
 	vertical-align: middle;
+	font-weight: 600;
 
 }
 
@@ -20,6 +21,10 @@ section{
 	width:100vw;
 	background-color: white;
 
+}
+
+.white{
+	color:white;
 }
 
 .info{
