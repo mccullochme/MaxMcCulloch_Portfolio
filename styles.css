@@ -27,6 +27,11 @@ section{
 	color:white;
 }
 
+.app{
+	min-height:40vw;
+	max-width: 20vw;
+}
+
 .info{
 	font: 200 1.2em "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	font-size: 24px;
