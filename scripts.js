@@ -4,6 +4,10 @@ $(function () {
     
 });
   
+function openUPaint(){
+  window.open("https://upaint.netlify.app/")
+}
+
 function createSticky(sticky) {
   
   if (typeof sticky !== "undefined") {
