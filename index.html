@@ -7,51 +7,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="scripts.js"></script>
     <script src="https://kit.fontawesome.com/7dcf86dc6b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-
 <div class="box1">
-
     <div class="row" >
-
-        <h1 class="col white" style="margin-top: 25%;">Max McCulloch</h1>
-    
+        <h1 class="col white" style="margin-top: 25%; font-size: 4.5em">Max McCulloch</h1>
     </div>
 	
     <div class="row" style="margin-top: 25px; justify-content: center;">
-           
         <i class="fab fa-linkedin-in icon white" onclick="window.open('https://www.linkedin.com/in/mccullochme/', '_blank');" style="margin-right:50px;"></i>
-        
         <i class="fab fa-github icon white" onclick="window.location.href='https://github.com/mccullochme/'"></i>
-       
         <i class="far fa-file-alt icon white" onclick="window.open('./content/Resume.pdf');" style="margin-left: 50px;"></i>
-           
     </div>
-    
 </div> 
 
 
-
-<div class="info-section" style="background-color: lightgrey;">
-
+<div class="info-section">
     <div class = "row">
-
         <div class = "col">
             <h1>About Me</h1>
         </div>
-
     </div>
     
    <div class = "row" style="margin:16px; justify-content: center;">  
-
         <div class="info">
             I am a Software Engineer major at Virginia Commonwealth University, 
             Graduating May 2022. Through Learning Computer Science, I found my 
             true passion for Game Design. I have Scripted in C#, Modeled, and 
             Animated for 7+ different projects.
         </div>
-
    </div>
 
    <div class = "row" style="margin:16px; justify-content: center;">  
@@ -69,217 +57,143 @@
     </div>
 </div>
 
-<div class="info-section" style="background-color: white;">
-    <div class="row" style="justify-content: center;">
-
-        <h1>Alerta</h1>
-        
-    </div>
-
+<div class="info-section" style="background-color: #2f3e46; color: white">
     <div class="block">
         <div class="col">
-                <div class="info">
-                ALERTA is a VR experience to help students with ADHD study.
+            <h1 style="margin-left: 12px; margin-bottom: 50px; color: white; text-align: left">Alerta</h1>
+            <div class="info" style="color: white">
+                    ALERTA is a VR experience research project at VCU to help students with ADHD study.
                 I modeled and animated these flowers in Maya. The flowers bloom
                 to represent the user's progress as they're studying. 
                 These flowers are then placed in a Virtual Environment 
-                using Unity 3D. 
-                </div>
-
-                <br>
-
-                <div class="info">
-                The petals are
-                a non-linear bend animation. I used the Alembic 
+                using Unity 3D. The petals are a non-linear bend animation. I used the Alembic 
                 Import tool to get the animation rigged in Unity.
-                </div>
-        </div>
-            
-        <div class="col" style="margin:0;">
-            <iframe src="https://drive.google.com/file/d/1yIb69U0Fsb4MMWANLBYuAq0cNH8A5GJR/preview" class="video" width="640" height="480" allow="autoplay"></iframe>
-        </div>
-           
-        <div class="col">
-            <div class="info">
-                ALERTA is a research project with 10+ VCU students 
-                and 2+ Professors. I am apart of the 3D modeling team, 
-                and the feedback team which entails animating and scripting.
             </div>
-
-            <br>
-
-            <div class="info">
+            <div class="info"  style="color: white">
                 Fun Fact: The start and end key-frames of all petals are 
                 offset to the others an odd amount
                 to give it natural bloom animation.
             </div>
         </div>
-    </div>    
-
-</div>
-
-<div class="info-section" style="background-color: lightgray;">
-    <div class="row" style="justify-content: center;">
-
-        <h1>Putt Points</h1>
-        
-    </div>
-
-    <div class="block" style="flex-direction: column;">
-        <div class="col">
-                <div class="info">
-                    I Programmed Putt Points with 3 other VCU students for our software development concentration class. It is a UI & UX friendly 
-                    mini golf scoring app. Putt Points is analyzed with 10 design heuristics in order for the app 
-                    to make sense to any user. 
-                </div>
-
-                <br>
-
-                <div class="info">
-                    If you have an android feel free to download the app below and have fun!
-                    <a href="https://play.google.com/store/apps/details?id=com.minigolf.puttpoints">Download Putt Points</a>
-                </div>
-        </div>
-
-
-        <div style="display:flex; padding:12px; max-width: 80vw;">
-            <div class="col">
-                <img src="./content/active_games_2.png"  class="app" ></img>
-            </div>
-            <div class="col" >
-                <img src="./content/score_board_2.png" class="app" ></img>
-            </div>
-            <div class="col" >
-                <img src="./content/game_history_2.png"  class="app" ></img>
-            </div>
-
-        </div>
-       
            
-        <div class="col">
-            <div class="info">
-                For anyone not able to download the app, Putt Points contains profile 
-                creation, one-click of a button to keep track of strokes, and a scoreboard to check 
-                the score during the game.
-                
-            </div>
-
-            <br>
-
-            <div class="info">
-                One unique feature we developed is the pause and resume game. 
-                Putt Points also features a history page for when you get in an argument with 
-                whoever you played with last ..."No, I won that game last week!" You can also 
-                review the strokes per hole from a previous game.
-            </div>
+        <div class="col-2" style="display: flex; justify-content: center;">
+            <video width="90%" class="video" controls="controls autoplay"> <source src="./content/ALERTA_flower.mp4" type="video/mp4"></video>
         </div>
     </div>    
 
 </div>
 
-<div class="info-section" style="background-color: darkgray;">
-    <div class="row" style="justify-content: center;">
-        <h1>FLICKR</h1>
-    </div>
-
-    <div class="block" style="justify-content: center;">
-
-        <div class="col" style="margin:0;">
-            <iframe src="https://drive.google.com/file/d/1M3Gl2HiHefanV_CjPKcxOad5u_bJEgSO/preview" class="video" width="640" height="480" allow="autoplay"></iframe>
+<div class="info-section" style="background-color: #354f52">
+    <div class="block">
+    <div class="col" style="display: flex; flex-direction: column">
+        <h1 style="margin-left: 12px; margin-bottom: 30px; color: white; text-align: left">Putt Points</h1> 
+        <div class="info"  style="color: white">
+            I Programmed Putt Points with 3 other VCU students for our software development concentration class. It is a UI & UX friendly 
+            mini golf scoring app.
         </div>
+        <div class="info"  style="color: white">
+            Putt Points contains profile creation, one-click of a button to keep track of strokes, and a scoreboard to check 
+            the score during the game.  
+        </div>
+        <br>
+        <div class="info"  style="color: white">
+            One unique feature we developed is the pause and resume game. 
+            Putt Points also features a history page for when you get in an argument with 
+            whoever you played with last ..."No, I won that game last week!" You can also 
+            review the strokes per hole from a previous game.
+        </div>
+        <div class="info"  style="color: white">
+            <button onclick="openPuttPoints()">View on Google Play</a>
+        </div>
+    </div>  
 
+    <div class="col-2" style="display: flex; justify-content: center;">
         <div class="col">
-            <div class="info">
+            <img src="./content/active_games_2.png"  class="app" ></img>
+        </div>
+        <div class="col" >
+            <img src="./content/score_board_2.png" class="app" ></img>
+        </div>
+        <div class="col" >
+            <img src="./content/game_history_2.png"  class="app" ></img>
+        </div>
+    </div>  
+</div>
+
+</div>
+
+<div class="info-section" style="background-color: #52796f">
+    <div class="block" style="justify-content: left">
+        <div class="col" style="justify-content: center">
+            <h1 style="margin-left: 12px; margin-bottom: 50px; color: white; text-align: left">FLICKR</h1>
+            <div class="info"  style="color: white">
                 FLICKR is a 3D thriller/puzzle video-game where 
                 the player solves puzzles that change with different 
                 lighting... all while it seems like something or someone 
                 is chasing you... 
             </div>
-    
-            <br>
-            
-            <div class="info">
-                LEFT (UNITY) : Walkthrough of first iteration of the map. 
+            <div class="info"  style="color: white">
+                Unity: Walkthrough of first iteration of the map. 
                 The light turns red to represent interaction between
                 the player and the light post.
             </div>
- 
-            <br>
- 
-            <div class="info">
-                Right (MAYA) : Lightposts that reveal different puzzles, 
+            <div class="info" style="color: white">
+                Maya : Lightposts that reveal different puzzles, 
                 and/or have something else up their sleeve.
-            </div>
-
-            <br>
- 
-            <div class="info">
-                ***still in development***
             </div>
          </div>
 
-        <div class="col" style="margin:0;">
-            <iframe src="https://drive.google.com/file/d/1FZyxRNrfF8OL95HLpoNky6NC18qX2bwc/preview" class="video" width="640" height="480" allow="autoplay"></iframe>
+        <div class="col-2" style="margin:0; display: flex; flex-direction: column; justify-content: center">
+            <video class="video" style="margin-bottom: 30px" controls="controls autoplay"><source src="./content/FLICKR_walkthrough.mp4"></video>
+            <video class="video" controls="controls autoplay"><source src="./content/FLICKR_lights.mp4"></video>
         </div>
 
     </div>
 
 </div>
 
-<div class="info-section" style="background-color: gray;">
-    <div class="row" style="justify-content: center;">
-        <h1>U-Paint</h1>
-    </div>
-
-    <div class="block" style="justify-content: center;">
-
-        <div class="info">
-            Simple Pixel Art Fun written in HTML, JS, and CSS. The 'pen' is controlled via
-            W, A, S, D. One fun feature I added using Javascript was to click and 
-            drag on the canvas to paint. Another feature in the works is for the user 
-            to export thier fabulous work with a click of a button. 
-           
+<div class="info-section" style="background-color: #84a98c">
+    <div class="block" style="justify-content: left">
+        <div class="col">
+            <h1 style="margin-left: 12px; margin-bottom: 50px; color: white; text-align: left;">U-Paint</h1>
+            <div class="info" style="color: white">
+                Simple Pixel Art Fun written in HTML, JS, and CSS. The 'pen' is controlled via
+                W, A, S, D. One fun feature I added using Javascript was to click and 
+                drag on the canvas to paint. Another feature in the works is for the user 
+                to export thier fabulous work with a click of a button. 
+                <br><br>
+                There are 9 colors that can be selected at the bottom of the page, 
+                or hotkeys 1-9.
+                A challenge I faced in developing this project was how to structure the canvas, 
+                and keeping track of what pixel the "pen" is currently on. I conquered this by 
+                using a coordinate system and each pixel belonging to its own (X,Y) pair.
+            </div>
         </div>
 
-        <div class="col" style="justify-content: center; margin:0;">
-            <iframe src="https://drive.google.com/file/d/1OvpjJ_uzMPt_dn0lT1s5f27LjerQGP-i/preview" class="video" width="640" height="480" allow="autoplay"></iframe>
+        <div class="col-2" style="display: flex; justify-content: center">
+            <video class="video" controls="controls autoplay"><source src="./content/uPaint_example.mp4"></video> 
         </div>
-        
-        <div class="info">
-            
-            There are 9 colors that can be selected at the bottom of the page, 
-            or hotkeys 1-9.
-            A challenge I faced in developing this project was how to structure the canvas, 
-            and keeping track of what pixel the "pen" is currently on. I conquered this by 
-            using a coordinate system and each pixel belonging to its own (X,Y) pair.
-        </div>
-
     </div>
 
 </div>
 
-<div class="info-section" style="background-color: black">
-    <div class="row" style="justify-content: center;">
-        <h1 style="color:white;">Bomb Squad</h1>
-    </div>
-
+<div class="info-section" style="background-color: #cad2c5">
     <div class="block" style="justify-content: center;">
-
-        <div class="info" style="color:white;">
-            Developed in UNITY, Bomb Squad is a doge falling objects game.
-            The Bombs are randomly generated to create infinite replay value.
-            The score goes up as you stay alive, and high score is displayed.
+        <div class="col">
+            <h1 style="margin-left: 12px; margin-bottom: 50px; text-align: left;">Bomb Squad</h1>
+            <div class="info">
+                Developed in UNITY, Bomb Squad is a doge falling objects game.
+                The Bombs are randomly generated to create infinite replay value.
+                The score goes up as you stay alive, and high score is displayed.
+            <br><br>
+                A challenge I faced in this development was to figure out how to save 
+                highscore for the next playthrough. I used a script to keep track of 
+                the player's state and to save current score when player "dies".
+            </div>
         </div>
 
-
-        <div class="col" style="justify-content: center; margin: 0">
-            <iframe src="https://drive.google.com/file/d/10EhOLkghO3V06sYnJJcBi1zYfqFCtCUc/preview" class="video" width="640" height="480" allow="autoplay"></iframe>
-        </div>
-        
-        <div class="info" style="color:white;">
-            A challenge I faced in this development was to figure out how to save 
-            highscore for the next playthrough. I used a script to keep track of 
-            the player's state and to save current score when player "dies".
+        <div class="col-2" style="justify-content: center">
+            <video class="video" controls="controls autoplay"><source src="./content/bombSquad.mp4"></video> 
         </div>
 
     </div>

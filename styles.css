@@ -1,12 +1,13 @@
 body {
     margin: 0;
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-family: Segoe, 'Quicksand', Verdana, sans-serif;
 	background-color: white;
 }
 
-h1{
+h1 {
 
-	font: italic normal 500 75px "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: italic normal 500;
+	font-size: 2.8em;
 	color: black;
 	margin: 0px;
 	text-align: center;
@@ -27,18 +28,17 @@ section{
 	color:white;
 }
 
-.app{
-	min-height:40vw;
+.app {
 	max-width: 20vw;
 	margin: 12px;
 }
 
-.info{
-	font: 200 1.2em "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-size: 24px;
+.info {
+	max-width: 700px;
+	font-size: 1.3em;
 	color: #000;
-	text-align: center;
-	margin:12px;
+	text-align: left;
+	margin: 12px;
 }
 
 .bulletPoint{
@@ -64,10 +64,10 @@ section{
 }
 
 .info-section {
-	padding-top: 55px;
-	padding-bottom: 55px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-top: 85px;
+	padding-bottom: 85px;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 
@@ -79,14 +79,17 @@ section{
 	flex:1;
 }
 
-.block{
+.col-2 {
+	flex: 2;
+}
+
+.block {
 	display:flex;
 	vertical-align: middle;
-	align-items: center;
 }
 
 .icon{
-	flex:.3;
+	flex: .3;
 	max-width: 50px;
 	height:50px;
 	font-size:50px;
@@ -117,9 +120,9 @@ section{
 	color:green;
 }
 
-.video{
-	margin: 16px;
-	max-width: 33vw;
+.video {
+	margin: 0 auto;
+	height: 500px;
 }
 
 
@@ -141,8 +144,13 @@ section{
 	}
 	
 	.video {
-		width: 80vw;
+		height: 300px;
 		max-width: 80vw;
+	}
+
+	.col-2 {
+		margin-top: 65px;
+		flex: 1;
 	}
 	
   }
