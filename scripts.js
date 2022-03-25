@@ -8,6 +8,10 @@ function openUPaint(){
   window.open("https://upaint.netlify.app/")
 }
 
+function openPuttPoints(){
+  window.open("https://play.google.com/store/apps/details?id=com.minigolf.puttpoints")
+}
+
 function createSticky(sticky) {
   
   if (typeof sticky !== "undefined") {

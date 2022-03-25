@@ -103,7 +103,7 @@
             review the strokes per hole from a previous game.
         </div>
         <div class="info"  style="color: white">
-            <button onclick="openPuttPoints()">View on Google Play</a>
+            <button onclick="openPuttPoints()" class="puttButton">View on Google Play</a>
         </div>
     </div>  
 
@@ -168,8 +168,12 @@
                 and keeping track of what pixel the "pen" is currently on. I conquered this by 
                 using a coordinate system and each pixel belonging to its own (X,Y) pair.
             </div>
-            <button onclick="openUPaint()">Create a Pixel Design</a>
+            <div class="info">
+                <button onclick="openUPaint()" class="uPaintButton">Create Something!</a>
+            </div>
         </div>
+
+        
 
         <div class="col-2" style="display: flex; justify-content: center">
             <video class="video" controls="controls autoplay"><source src="./content/uPaint_example.mp4"></video> 
